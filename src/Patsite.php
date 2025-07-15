@@ -1,6 +1,6 @@
 <?php
 namespace PatrykNamyslak;
-require_once 'environment_variables.php';
+// require_once 'environment_variables.php';
 use PatrykNamyslak\Patbase as Database;
 
 
