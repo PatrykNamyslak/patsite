@@ -1,11 +1,10 @@
 {
-    "name": "patryknamyslak/patsite",
-    "description": "A website templating and management engine",
+    "name": "patryknamyslak/patbase",
+    "description": "Simple php database controller",
     "type": "library",
     "require": {
         "ext-pdo": "*",
-        "vlucas/phpdotenv": "*",
-        "patryknamyslak/patbase": "*"
+        "vlucas/phpdotenv": "*"
     },
     "license": "CC-BY-NC-4.0",
     "autoload": {

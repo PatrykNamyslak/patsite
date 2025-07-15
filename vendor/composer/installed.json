@@ -66,6 +66,49 @@
             "install-path": "../graham-campbell/result-type"
         },
         {
+            "name": "patryknamyslak/patbase",
+            "version": "v1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PatrykNamyslak/patbase.git",
+                "reference": "b553daa34998c9ce4de6a533fb36d54250a79ceb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PatrykNamyslak/patbase/zipball/b553daa34998c9ce4de6a533fb36d54250a79ceb",
+                "reference": "b553daa34998c9ce4de6a533fb36d54250a79ceb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "vlucas/phpdotenv": "*"
+            },
+            "time": "2025-07-15T18:37:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PatrykNamyslak\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-NC-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Patryk Namyslak"
+                }
+            ],
+            "description": "Simple php database controller",
+            "support": {
+                "issues": "https://github.com/PatrykNamyslak/patbase/issues",
+                "source": "https://github.com/PatrykNamyslak/patbase/tree/v1.0"
+            },
+            "install-path": "../patryknamyslak/patbase"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.9.3",
             "version_normalized": "1.9.3.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f5abfd48a6142da2781f78e3353af3a",
+    "content-hash": "02282e7a6151fa204221dc0bd4b7c6a8",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -67,6 +67,46 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "patryknamyslak/patbase",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PatrykNamyslak/patbase.git",
+                "reference": "b553daa34998c9ce4de6a533fb36d54250a79ceb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PatrykNamyslak/patbase/zipball/b553daa34998c9ce4de6a533fb36d54250a79ceb",
+                "reference": "b553daa34998c9ce4de6a533fb36d54250a79ceb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "vlucas/phpdotenv": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PatrykNamyslak\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-NC-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Patryk Namyslak"
+                }
+            ],
+            "description": "Simple php database controller",
+            "support": {
+                "issues": "https://github.com/PatrykNamyslak/patbase/issues",
+                "source": "https://github.com/PatrykNamyslak/patbase/tree/v1.0"
+            },
+            "time": "2025-07-15T18:37:21+00:00"
         },
         {
             "name": "phpoption/phpoption",

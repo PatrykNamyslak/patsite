@@ -54,6 +54,7 @@ class ComposerStaticInit4f5abfd48a6142da2781f78e3353af3a
         'PatrykNamyslak\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/..' . '/patryknamyslak/patbase/src',
         ),
         'GrahamCampbell\\ResultType\\' => 
         array (
