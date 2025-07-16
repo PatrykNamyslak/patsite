@@ -1,5 +1,6 @@
 <?php
 
+namespace PatrykNamyslak;
 enum PatsiteException: string {
     case PAT_ERROR__000 = 'Website is inactive. If you think this was a mistake contact us.';
 }
