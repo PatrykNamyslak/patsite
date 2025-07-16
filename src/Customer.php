@@ -12,9 +12,9 @@ final class Customer extends Patsite{
     protected function __construct(string $ID){
         $this->ID = $ID;
         $customerData = $this->details();
-        $this->Name = $customerData[''];
-        $this->Email = $customerData[''];
-        $this->Websites = self::extractProducts(productType: 'Websites', productData: $customerData['Products']);
+        $this->Name = $customerData['Full Name'];
+        $this->Email = $customerData['Email'];
+        $this->Websites = self::extractProducts(productType: 'Websites', productData: JSON::instantiate($customerData['Products']));
     }
     static function extractProducts(Product $productType, JSON $productData){
 

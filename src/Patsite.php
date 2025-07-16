@@ -1,6 +1,5 @@
 <?php
 namespace PatrykNamyslak;
-// require_once 'environment_variables.php';
 use PatrykNamyslak\Patbase as Database;
 
 
@@ -9,7 +8,7 @@ class Patsite{
 
     private function __construct(?string $db_name = NULL, ?string $db_username = NULL, ?string $db_password = NULL){
         $this->db = new Database(
-            database_name: $db_name ?? $_ENV['PATSITE_DATABASE_NAME'] ?? 'clients',
+            database_name: $db_name ?? $_ENV['PATSITE_DATABASE_NAME'] ?? 'business',
             username: $db_username ?? $_ENV['PATSITE_DATABASE_USERNAME'],
             password: $db_password ?? $_ENV['PATSITE_DATABASE_PASSWORD']
         );
