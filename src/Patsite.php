@@ -61,4 +61,13 @@ final class Website extends Patsite{
     }
 }
 
+/**
+ * 
+ */
+final class Customer extends Patsite{
+    private string $ID;
+    private string $Name;
+    private string $Email;
+    private array $Websites;
+}
 ?>
