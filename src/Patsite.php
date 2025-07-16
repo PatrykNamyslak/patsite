@@ -49,7 +49,15 @@ final class Website extends Patsite{
      * @return bool
      */
     public function active(){
-        return (bool) $this->details();
+        $status = $this->details()['Status'];
+        switch($status){
+            case 'Active':
+                return TRUE;
+                break;
+            default:
+                return FALSE;
+                break;
+        }
     }
 }
 
