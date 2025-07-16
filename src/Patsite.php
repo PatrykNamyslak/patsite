@@ -41,7 +41,7 @@ final class Website extends Patsite{
      * @return array|bool : if the website does exist then a Website object with the details as properties is returned if not it returns false
      */
     public function details(): array|bool{
-        return $this->db->query("SELECT * FROM `websites` WHERE `Unique ID` = '{$this->ID}'")->fetchAll();
+        return $this->db->query("SELECT * FROM `websites` WHERE `Unique ID` = '{$this->ID}'")->fetch();
     }
 
     /**
